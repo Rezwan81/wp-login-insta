@@ -11,10 +11,10 @@ Version: 0.0.1
 defined('ABSPATH') or die();
 
 /* Instagram App Client Id */
-define('INSTAGRAM_CLIENT_ID', '');
+define('INSTAGRAM_CLIENT_ID', '881415336022771');
 
 /* Instagram App Client Secret */
-define('INSTAGRAM_CLIENT_SECRET', '');
+define('INSTAGRAM_CLIENT_SECRET', 'a5b848859b4c90123e5f4ebad2fd877f');
 
 /* Redirect URI */
 define('REDIRECT_URI', 'https://localhost/vm-insta-login/');
