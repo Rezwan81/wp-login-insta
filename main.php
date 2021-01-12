@@ -76,8 +76,6 @@ function vm_login_insta(){
                 ));
         
                 if($new_user_id){
-                    // send an email
-                    wp_new_user_notification($new_user_id);
         
                     // log the new user in
                     do_action('wp_login', $new_user_id, $user_info['username']);
